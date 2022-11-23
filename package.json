@@ -1,0 +1,30 @@
+{
+  "name": "mern-blog-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "start": "node ./bin/www",
+    "build-client": "cd ./client && yarn build"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^6.7.0",
+    "morgan": "~1.9.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "nodemonConfig": {
+    "env": {
+      "CONNECTION_STRING": "mongodb+srv://theofurtuna:password1234@cluster0.v1r1i9v.mongodb.net/test"
+    }
+  }
+}

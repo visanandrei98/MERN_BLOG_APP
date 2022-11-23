@@ -1,2 +1,1 @@
-# MERN_BLOG_APP
- 
+# mern-blog-app
